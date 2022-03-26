@@ -2,46 +2,68 @@
   margin: 0;
   padding: 0;
 }
+@media screen and (min-width: 480px) {
+  body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15% 0px 15%;
+    font-family: "Lexend Deca", sans-serif;
+  }
+  section {
+    display: flex;
+    height: auto;
+  }
+  h2 {
+    font-family: "Big Shoulders Display", cursive;
+    color: hsl(0, 0%, 95%);
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+  }
+  p {
+    font-family: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 70px;
+    line-height: 1.5em;
+  }
 
-body {
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 15% 0px 15%;
-  font-family: "Lexend Deca", sans-serif;
-}
-section {
-  display: flex;
-  height: auto;
-}
-h2 {
-  font-family: "Big Shoulders Display", cursive;
-  color: hsl(0, 0%, 95%);
-  font-size: 2.5rem;
-  margin-bottom: 25px;
-}
-p {
-  font-family: 15px;
-  color: hsla(0, 0%, 100%, 0.75);
-  margin-bottom: 70px;
-}
+  img {
+    margin-bottom: 25px;
+  }
 
-img {
-  margin-bottom: 25px;
-}
+  .sedans {
+    background-color: #e18524;
+    padding: 25px 50px;
+    border-radius: 10px 0px 0px 10px;
+  }
+  .suvs {
+    background-color: #006971;
+    padding: 25px 50px;
+  }
+  .luxury {
+    background-color: #00403e;
+    padding: 25px 50px;
+    border-radius: 0px 10px 10px 0px;
+  }
 
-.sedans {
-  background-color: #e18524;
-  padding: 25px 50px;
-  border-radius: 10px 0px 0px 10px;
-}
-.suvs {
-  background-color: #006971;
-  padding: 25px 50px;
-}
-.luxury {
-  background-color: #00403e;
-  padding: 25px 50px;
-  border-radius: 0px 10px 10px 0px;
+  button {
+    height: 40px;
+    width: 7rem;
+    border-radius: 100px;
+    border: 0;
+    background-color: hsl(0, 0%, 95%);
+    font-weight: 600;
+  }
+  .button1 {
+    color: #e18524;
+  }
+
+  .button2 {
+    color: #006971;
+  }
+
+  .button3 {
+    color: #00403e;
+  }
 }
